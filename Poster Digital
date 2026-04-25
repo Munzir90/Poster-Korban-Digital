@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Korban Jengka 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Amiri:wght@700&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #C9973A;
+            --green-dark: #0D2318;
+            --cream: #FAF5E8;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Saiz Poster (Mudah Alih) */
+        .poster {
+            width: 100%;
+            max-width: 500px;
+            background: var(--green-dark);
+            color: var(--cream);
+            font-family: 'Lato', sans-serif;
+            border: 5px solid var(--gold);
+            padding-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+        }
+
+        .header {
+            padding: 40px 20px;
+            background: linear-gradient(rgba(13, 35, 24, 0.9), rgba(13, 35, 24, 0.9)), url('https://www.transparenttextures.com/patterns/dark-matter.png');
+        }
+
+        .bismillah {
+            font-family: 'Amiri', serif;
+            font-size: 2.2rem;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin: 10px 0;
+            line-height: 1.2;
+        }
+
+        h1 span { color: var(--gold); }
+
+        .tagline {
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            color: var(--gold);
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Galeri Gambar Lembu */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid var(--gold);
+            border-radius: 5px;
+        }
+
+        .pakej-info {
+            background: rgba(255,255,255,0.05);
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .pakej-item {
+            margin: 15px 0;
+            border-bottom: 1px solid rgba(201, 151, 58, 0.3);
+            padding-bottom: 10px;
+        }
+
+        .price {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: var(--gold);
+        }
+
+        .ustaz {
+            margin: 25px 0;
+            font-weight: 900;
+            font-size: 1.2rem;
+        }
+
+        .btn-whatsapp {
+            background: var(--gold);
+            color: var(--green-dark);
+            text-decoration: none;
+            padding: 15px 40px;
+            font-weight: 900;
+            border-radius: 50px;
+            display: inline-block;
+            text-transform: uppercase;
+            box-shadow: 0 4px 15px rgba(201, 151, 58, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="poster">
+        <div class="header">
+            <div class="bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+            <p class="tagline">Jengka • 2026 / 1447H</p>
+            <h1>Ibadah <span>Korban</span></h1>
+        </div>
+
+        <div class="gallery">
+            <img src="lembu1.jpg" alt="Lembu Korban 1">
+            <img src="lembu2.jpg" alt="Lembu Korban 2">
+            <img src="lembu3.jpg" alt="Lembu Korban 3">
+            <img src="lembu4.jpg" alt="Lembu Korban 4">
+        </div>
+
+        <div class="pakej-info">
+            <div class="pakej-item">
+                <div style="font-weight: bold;">1 BAHAGIAN LEMBU</div>
+                <div class="price">RM 680</div>
+            </div>
+            <div class="pakej-item">
+                <div style="font-weight: bold;">1 EKOR LEMBU</div>
+                <div class="price">RM 4,760</div>
+            </div>
+        </div>
+
+        <div class="ustaz">HUBUNGI: USTAZ AHMAD</div>
+
+        <a href="https://wassap.my/0132654006/korbanaidiladhajengka" class="btn-whatsapp">
+            Daftar Sekarang
+        </a>
+        
+        <p style="font-size: 0.7rem; margin-top: 20px; opacity: 0.7;">
+            Sempurnakan Sunnah, Sebar Kebahagiaan.
+        </p>
+    </div>
+
+</body>
+</html>
